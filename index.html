@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do: Lists & Tasks</title>
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+</head>
+
+<body>
+  <div class="todo">
+    <div class="todo__container">
+      <h1 class="todo__title">To Do: Lists & Tasks</h1>
+      <form class="todo__input">
+        <label for="subtitle" class="todo__input--body">
+          <h2 class="todo__subtitle">Название:</h2>
+          <input type="text" id="subtitle" autocomplete="off">
+        </label>
+        <label for="descr" class="todo__input--body">
+          <h3 class="todo__descr">Описание:</h3>
+          <input type="text" id="descr" autocomplete="off">
+        </label>
+        <button type="button" class="todo__input--button">Добавить</button>
+      </form>
+      <!-- <div class="todo__options">
+        <select class="select">
+          <option value="">Активные</option>
+          <option value="">Завершённые</option>
+          <option value="">Удалённые</option>
+        </select>
+      </div> -->
+      <div class="todo__content">
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
